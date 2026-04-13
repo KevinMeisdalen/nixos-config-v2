@@ -1,0 +1,53 @@
+2026-04-13 16:37:56:331 [ info nextcloud.gui.application /build/source/src/gui/application.cpp:745 ]:	################## "Nextcloud" locale: "en_US" ui_lang: QVariant(Invalid) version: "4.0.3" os: "NixOS 25.11 (Xantusia)"
+2026-04-13 16:37:56:331 [ info nextcloud.gui.application /build/source/src/gui/application.cpp:750 ]:	Arguments: QList("nextcloud")
+2026-04-13 16:37:56:331 [ info nextcloud.gui.application /build/source/src/gui/application.cpp:1026 ]:	System UI languages are: QList("en-Latn-US", "en-US", "en-Latn", "en")
+2026-04-13 16:37:56:331 [ info nextcloud.gui.application /build/source/src/gui/application.cpp:1029 ]:	selected application language: "en_Latn_US"
+2026-04-13 16:37:56:332 [ info nextcloud.gui.application /build/source/src/gui/application.cpp:1049 ]:	Using "en_Latn_US" translation
+2026-04-13 16:37:56:332 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:163 ]:	Checking for accounts versions.
+2026-04-13 16:37:56:332 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:164 ]:	Config accounts version: 0
+2026-04-13 16:37:56:332 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:165 ]:	Max accounts Version is set to: 13
+2026-04-13 16:37:56:334 [ info nextcloud.gui.application /build/source/src/gui/application.cpp:139 ]:	Version changed. Removing updater settings from config.
+2026-04-13 16:37:56:342 [ info nextcloud.gui.application /build/source/src/gui/application.cpp:376 ]:	VFS suffix plugin is available
+2026-04-13 16:37:56:343 [ info nextcloud.gui.socketapi /build/source/src/gui/socketapi/socketapi.cpp:298 ]:	server started, listening at  "/run/user/1000/Nextcloud/socket"
+2026-04-13 16:37:56:343 [ info nextcloud.gui.folder.manager /build/source/src/gui/folderman.cpp:68 ]:	setting remote poll timer interval to 30000 msec
+2026-04-13 16:37:56:343 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:163 ]:	Checking for accounts versions.
+2026-04-13 16:37:56:343 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:164 ]:	Config accounts version: 0
+2026-04-13 16:37:56:343 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:165 ]:	Max accounts Version is set to: 13
+2026-04-13 16:37:56:343 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:185 ]:	Migrate: restoreFromLegacySettings, checking settings group "Nextcloud"
+2026-04-13 16:37:56:343 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:288 ]:	Migrate: could not read old config  "/home/nix/.local/share/ownCloud/owncloud.cfg"
+2026-04-13 16:37:56:343 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:288 ]:	Migrate: could not read old config  "/home/nix/.config/ownCloud/owncloud.cfg"
+2026-04-13 16:37:56:343 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:288 ]:	Migrate: could not read old config  "/home/nix/.config/Nextcloud/owncloud.cfg"
+2026-04-13 16:37:56:343 [ info nextcloud.gui.account.manager /build/source/src/gui/accountmanager.cpp:288 ]:	Migrate: could not read old config  "/home/nix/.config/ownCloud/owncloud.cfg"
+2026-04-13 16:37:56:361 [ warning nextcloud.sync.configfile /build/source/src/libsync/configfile.cpp:713 ]:	Default update channel is "stable"
+2026-04-13 16:37:56:370 [ info nextcloud.gui.folder.manager /build/source/src/gui/folderman.cpp:359 ]:	Setup folders from "/home/nix/.config/Nextcloud/"
+2026-04-13 16:37:56:442 [ warning nextcloud.gui.application /build/source/src/gui/application.cpp:537 ]:	Account(s) setup result: OCC::AccountManager::AccountsRestoreSuccessFromLegacyVersion
+2026-04-13 16:37:56:442 [ warning nextcloud.gui.application /build/source/src/gui/application.cpp:538 ]:	0 folder(s) migrated
+2026-04-13 16:37:56:442 [ warning nextcloud.gui.application /build/source/src/gui/application.cpp:539 ]:	0 account(s) migrated: ""
+2026-04-13 16:37:56:480 [ info nextcloud.sync.clientproxy /build/source/src/libsync/clientproxy.cpp:96 ]:	Set proxy configuration to use the preferred system proxy for http tcp connections
+2026-04-13 16:37:56:484 [ warning qt.core.qobject.connect unknown:0 ]:	QObject::connect(QNetworkInformation, OCC::Application): invalid nullptr parameter
+2026-04-13 16:37:56:623 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:492 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:492:13: QML Connections: Detected function "onInteractiveActivityReceived" in Connections element. This is probably intended to be a signal handler but no signal of the target matches the name.
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/TrayFoldersMenuButton.qml:20 ]:	qrc:/qml/src/gui/tray/TrayFoldersMenuButton.qml:20: TypeError: Cannot read property 'groupFolders' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/TrayWindowHeader.qml:57 ]:	qrc:/qml/src/gui/tray/TrayWindowHeader.qml:57: TypeError: Cannot read property 'hasLocalFolder' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/TrayWindowHeader.qml:77 ]:	qrc:/qml/src/gui/tray/TrayWindowHeader.qml:77: TypeError: Cannot read property 'isFeaturedAppEnabled' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/TrayWindowHeader.qml:82 ]:	qrc:/qml/src/gui/tray/TrayWindowHeader.qml:82: TypeError: Cannot read property 'featuredAppAccessibleName' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/TrayWindowHeader.qml:78 ]:	qrc:/qml/src/gui/tray/TrayWindowHeader.qml:78: TypeError: Cannot read property 'featuredAppIcon' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:275 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:275: TypeError: Cannot read property 'unifiedSearchResultsListModel' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:274 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:274: TypeError: Cannot read property 'isConnected' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:273 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:273: TypeError: Cannot read property 'unifiedSearchResultsListModel' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:298 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:298: TypeError: Cannot read property 'unifiedSearchResultsListModel' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:346 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:346: TypeError: Cannot read property 'unifiedSearchResultsListModel' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:384 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:384: TypeError: Cannot read property 'unifiedSearchResultsListModel' of null
+2026-04-13 16:37:56:641 [ warning default qrc:/qml/src/gui/tray/SyncStatus.qml:105 ]:	qrc:/qml/src/gui/tray/SyncStatus.qml:105: TypeError: Cannot read property 'hasLocalFolder' of null
+2026-04-13 16:37:56:642 [ warning default qrc:/qml/src/gui/tray/SyncStatus.qml:120 ]:	qrc:/qml/src/gui/tray/SyncStatus.qml:120:9: Unable to assign [undefined] to bool
+2026-04-13 16:37:56:642 [ warning default qrc:/qml/src/gui/tray/SyncStatus.qml:133 ]:	qrc:/qml/src/gui/tray/SyncStatus.qml:133: TypeError: Cannot read property 'needsToSignTermsOfService' of null
+2026-04-13 16:37:56:642 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:297 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:297: TypeError: Cannot read property 'unifiedSearchResultsListModel' of null
+2026-04-13 16:37:56:642 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:325 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:325: TypeError: Cannot read property 'unifiedSearchResultsListModel' of null
+2026-04-13 16:37:56:642 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:328 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:328: TypeError: Cannot read property 'unifiedSearchResultsListModel' of null
+2026-04-13 16:37:56:642 [ warning default qrc:/qml/src/gui/tray/MainWindow.qml:327 ]:	qrc:/qml/src/gui/tray/MainWindow.qml:327: TypeError: Cannot read property 'unifiedSearchResultsListModel' of null
+2026-04-13 16:37:56:644 [ info nextcloud.gui.application /build/source/src/gui/owncloudgui.cpp:202 ]:	No configured folders yet, starting setup wizard
+2026-04-13 16:37:56:725 [ info nextcloud.gui.wizard.webviewpage /build/source/src/gui/wizard/webviewpage.cpp:30 ]:	Time for a webview!
+2026-04-13 16:37:56:774 [ warning default unknown:0 ]:	QWaylandGLContext: Failed to create the decorations EGLContext. Decorations will not be drawn.
+2026-04-13 16:37:56:776 [ warning default unknown:0 ]:	QWaylandGLContext: Failed to create the decorations EGLContext. Decorations will not be drawn.
+2026-04-13 16:37:57:033 [ warning default unknown:0 ]:	GBM is not supported with the current configuration. Fallback to Vulkan rendering in Chromium.
+2026-04-13 16:37:57:194 [ warning default unknown:0 ]:	QWaylandGLContext: Failed to create the decorations EGLContext. Decorations will not be drawn.
+2026-04-13 16:37:57:240 [ warning qt.qpa.services unknown:0 ]:	Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
